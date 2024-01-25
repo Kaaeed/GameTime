@@ -6,7 +6,9 @@ import LogoImage from "../../public/logo/logo.png";
 export default function NavigationBar() {
   return (
     <header className="bg-black flex justify-center">
-      <nav className="text-white flex items-center justify-between w-4/5 gap-x-4">
+      <nav
+        className={`text-white flex items-center justify-between w-4/5 gap-x-4 `}
+      >
         <Link href="/">
           <div className="w-24">
             <Image src={LogoImage} alt="Site logo" />
@@ -35,12 +37,12 @@ export default function NavigationBar() {
         <ul className="flex gap-x-4">
           <li>
             <Link href="/work-in-progress">
-              <p>Sign-in</p>
+              <p>Sign in</p>
             </Link>
           </li>
           <li>
             <Link href="/work-in-progress">
-              <p>Sign-up</p>
+              <p>Sign up</p>
             </Link>
           </li>
         </ul>

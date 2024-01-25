@@ -1,0 +1,11 @@
+.title {
+  font-weight: 700;
+}
+
+.link a {
+  color: rgb(37 99 235);
+}
+
+.link a:hover {
+  color: rgb(191 219 254);
+}
