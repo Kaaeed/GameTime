@@ -19,8 +19,8 @@ export default function GameCard({
   completionist,
 }: GameCardProps) {
   return (
-    <div className="flex border-2 border-sky-900 p-2 text-white bg-gradient-to-tr from-gray-800 to-gray-500">
-      <div className="w-28">
+    <div className="flex p-4 text-white bg-gradient-to-tr from-gray-800 to-gray-500">
+      <div className="max-w-28">
         <Link href="/work-in-progress">
           <Image src={GameImage} alt="Image of a game" />
         </Link>

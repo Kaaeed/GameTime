@@ -33,11 +33,11 @@ const DUMMY_DATA = [
 
 export default function PopularGames() {
   return (
-    <div>
-      <div>
+    <div className="w-full flex justify-center intems-center">
+      <section className="w-auto">
         <h1>Popular Games</h1>
         <div>
-          <ul>
+          <ul className="grid grid-cols-1 gap-x-2 gap-y-2 xl:grid-cols-2">
             {DUMMY_DATA.map((game) => (
               <li key={game.id}>
                 <GameCard
@@ -50,7 +50,7 @@ export default function PopularGames() {
             ))}
           </ul>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

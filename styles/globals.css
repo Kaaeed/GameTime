@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  height: 100%;
+* {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  color: white;
+}
 main {
   min-height: 100%;
 }
