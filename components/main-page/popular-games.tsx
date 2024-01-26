@@ -29,13 +29,29 @@ const DUMMY_DATA = [
     extra: 14,
     completionist: 21,
   },
+  {
+    id: 5,
+    name: "Portal 2",
+    main: 8,
+    extra: 14,
+    completionist: 21,
+  },
+  {
+    id: 6,
+    name: "Portal 2",
+    main: 8,
+    extra: 14,
+    completionist: 21,
+  },
 ];
 
 export default function PopularGames() {
   return (
-    <div className="w-full flex justify-center intems-center">
-      <section className="w-auto">
-        <h1>Popular Games</h1>
+    <div className="w-full flex justify-center intems-center bg-zinc-800">
+      <section className="w-auto mt-10 mb-20">
+        <h1 className="font-bold text-4xl mb-4 text-orange-400">
+          Popular Games
+        </h1>
         <div>
           <ul className="grid grid-cols-1 gap-x-2 gap-y-2 xl:grid-cols-2">
             {DUMMY_DATA.map((game) => (
