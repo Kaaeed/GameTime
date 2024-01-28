@@ -25,13 +25,13 @@ export default function GameCard({
           <Image src={GameImage} alt="Image of a game" />
         </Link>
       </div>
-      <div className="ml-6">
+      <div className="ml-4 w-full">
         <Link href="/work-in-progress">
           <h2 className="font-bold text-lg mb-2 hover:underline decoration-2 underline-offset-2">
             {name}
           </h2>
         </Link>
-        <div className="grid grid-cols-2 gap-x-14 gap-y-1 ">
+        <div className="grid grid-cols-2 gap-x-28 gap-y-1">
           <div>
             <span className={classes.centerText}>Main Story</span>
           </div>

@@ -2,8 +2,6 @@ import Image from "next/image";
 
 import SiteLogo from "../../public/logo/Logo_1.png";
 
-import classes from "./site-intro.module.css";
-
 export default function SiteIntro() {
   return (
     <div className="bg-gradient-to-tr from-neutral-900 to-neutral-400 py-20 flex justify-center">

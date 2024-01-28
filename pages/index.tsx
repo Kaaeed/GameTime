@@ -1,4 +1,5 @@
-import PopularGames from "@/components/main-page/popular-games";
+import FeaturedGames from "@/components/main-page/featured-games";
+import News from "@/components/main-page/news";
 import SiteIntro from "@/components/site-intro/site-intro";
 import { Inter } from "next/font/google";
 
@@ -8,7 +9,8 @@ export default function Home() {
   return (
     <div className="w-full h-full">
       <SiteIntro />
-      <PopularGames />
+      <News />
+      <FeaturedGames sectionTitle="Popular Games" />
     </div>
   );
 }
