@@ -1,4 +1,6 @@
-import PopularGames from "@/components/main-page/popular-games";
+import FeaturedGames from "@/components/main-page/featured-games";
+import News from "@/components/main-page/news";
+import SiteIntro from "@/components/site-intro/site-intro";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -6,8 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="w-full h-full">
-      <h1>MAIN PAGE</h1>
-      <PopularGames />
+      <SiteIntro />
+      <News />
+      <FeaturedGames sectionTitle="Popular Games" />
     </div>
   );
 }
